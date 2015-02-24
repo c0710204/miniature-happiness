@@ -2,7 +2,7 @@
 include("../../vendor/autoload.php");
 
 use Monolog\Logger;
-use Monolog\Handler\StreamHandler;
+use Monolog\Handler\RotatingFileHandler;
 
 // create a log channel
 $log = new Logger('name');
